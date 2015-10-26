@@ -25,7 +25,7 @@
     <input type="file" name="anexos" id="anexos" placeholder="Documentos em anexo">
     
     <input type="submit" onclick="validarFormulario('abrirChamado');">
-    
+    <input type="reset" value="Limpar">
 </form>
 
 <%@include file="rodape.jsp" %>
