@@ -19,6 +19,11 @@ function validarFormulario(nomeFormulario){
                 }
                 break;
             case 'email':
+                var arrEmail = formulario[i].value.split('@');                
+                if (arrEmail.length != 2) {
+                    alert( "Preencha o campo " + formulario[i].name +  " corretamente!" );
+                }
+                var dominio = arrEmail[1];
                 break;
         }
     }
